@@ -1,0 +1,2 @@
+# Figbot-online
+trading algo
