@@ -1,0 +1,66 @@
+{
+  "name": "figbot-trading-system",
+  "version": "1.0.0",
+  "description": "A Node.js-based trading system with real-time market data processing and automated trading capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "build": "tsc",
+    "migrate": "node scripts/migrate.js"
+  },
+  "keywords": [
+    "trading",
+    "bot",
+    "automation",
+    "finance",
+    "market"
+  ],
+  "author": "Figbot",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "winston": "^3.11.0",
+    "moment": "^2.29.4",
+    "lodash": "^4.17.21",
+    "joi": "^17.11.0",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.1.2",
+    "websocket": "^1.0.34",
+    "redis": "^4.6.11",
+    "bull": "^4.11.5",
+    "decimal.js": "^10.4.3",
+    "node-cache": "^5.1.2",
+    "uuid": "^9.0.1",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "@types/node": "^20.10.0",
+    "@types/jest": "^29.5.8",
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Figbot1/Figbot-online.git"
+  }
+}
